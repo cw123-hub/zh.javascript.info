@@ -50,7 +50,7 @@ range[Symbol.iterator] = function() {
     current: this.from,
     last: this.to,
 
-    // 3. next() 在 for..of 的每一轮循环迭代中被调用
+    // 3. next() 在 for..of 的每一轮循环迭代中被调用  dkcnlanclknkslac
     next() {
       // 4. 它将会返回 {done:.., value :...} 格式的对象
       if (this.current <= this.last) {
